@@ -1,0 +1,66 @@
+$white: #E8E8E8;
+$poppins:'Poppins', sans-serif;
+$button-primary: #1B6276;
+$green:#03BA68;
+
+
+
+
+
+.click{
+    -webkit-tap-highlight-color:transparent;
+    border-radius: 999px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+body {
+  background-color:#022A36 ;
+  }
+
+.white-color{
+  color:#E8E8E8 ;
+  }
+
+.line{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.33);
+}
+.button-primary{
+  color:$white;
+  background-color: $button-primary;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 5px;
+  font-family: $poppins;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.button-primary:hover{
+
+  background-color:#20758D;
+
+}
+
+.font-size1{
+  font-size: 19px;
+  line-height: 32px;
+  color: $white;
+}
+
+.font-size2{
+  font-size: 17px;
+  line-height: 30px;
+  color: $white;
+}
+
+.c-scrollbar_thumb {
+  background-color: $green !important;
+  opacity: 0.8 !important;
+ }

@@ -10,7 +10,12 @@ module.exports = {
     `app.{js,ts,vue}`
   ],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+        padding: '1rem',
+    },
   },
+
   plugins: [],
-}
+}}
