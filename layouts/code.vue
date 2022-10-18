@@ -1,6 +1,6 @@
 <template>
 <div class="background1 w-7/12">
-    <pre><code class="">
+    <pre><code>
 <slot />
 </code></pre>
  </div>
