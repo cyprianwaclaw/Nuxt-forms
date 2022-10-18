@@ -3,9 +3,15 @@ $poppins:'Poppins', sans-serif;
 $button-primary: #1B6276;
 $green:#03BA68;
 
+$code-font: 'JetBrains Mono', monospace;
+$code-turkus: #3F9BAE;
 
-
-
+code{
+  font-family: $code-font;
+}
+.turkus{
+  color: $code-turkus
+}
 
 .click{
     -webkit-tap-highlight-color:transparent;
@@ -16,7 +22,7 @@ $green:#03BA68;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
+} 
 
 body {
   background-color:#022A36 ;
@@ -38,7 +44,7 @@ body {
   padding-right: 24px;
   border-radius: 5px;
   font-family: $poppins;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -63,4 +69,10 @@ body {
 .c-scrollbar_thumb {
   background-color: $green !important;
   opacity: 0.8 !important;
+  opacity: 0.4;
+ }
+
+ .c-scrollbar {
+  width: 10px;
+  margin-right: 4px;
  }

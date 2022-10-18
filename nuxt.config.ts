@@ -8,6 +8,7 @@ export default defineNuxtConfig({
         download: true,
         families: {
           'Poppins': true,
+          'JetBrains Mono': true,
         },
     }
 })

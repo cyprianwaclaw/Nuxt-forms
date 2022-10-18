@@ -2,7 +2,7 @@
 <div>
     <div class="mt-36 columns-2">
        <div>
-        <h2 class="hero-title poppins">Nuxt3 <span style="color: #E8E8E8">and</span> Vee validate</h2>
+        <h2 class="hero-title poppins mt-5">Nuxt3 <span style="color: #E8E8E8">and</span> Vee validate</h2>
         <p class="mt-4 mb-9 font-size1">
             Example input and forms created <br />use Vee Validate and Nuxt3<br /> framework.
         </p>
